@@ -1,0 +1,32 @@
+cr x 1
+cr p 1
+cr q 1
+cr r 1
+show x
+list PCB
+to
+req R2
+to
+req R3 3
+to
+req R4 3
+to
+to
+list RES	
+req R3 
+req R4 2
+req R2 2
+list PCB
+to
+de q
+cr u 2
+cr q 1
+req R3
+show u
+list PCB
+rel R3
+de u
+list RES
+rel R2 1
+to
+to
